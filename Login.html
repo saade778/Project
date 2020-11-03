@@ -1,0 +1,58 @@
+
+<html lang="en">
+
+<head> 
+    <title> QuizSite  </title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png" type="image/gif" >
+</head>
+
+<body>
+
+<!-- Reuesable Container -->    
+<div id="loginContainer">
+<img class="center marginTP" src="images/profile.svg" alt="profile picture">
+
+<form action="#" method="get">
+
+    <h1 class="centerText marginBM">Welcome to QuizSite</h1>
+    <hr class="marginBM">
+
+
+<label class="centerText marginBM font40">User Name</label>
+<input class="center marginBM sizeInput"  type="text" id="username">
+
+<label class="centerText marginBM font40">Password</label>
+
+<input class="center marginBM sizeInput"  type="password" id="password">
+
+	<input class="button center button-size" onclick="register()" type="button" value="Sign up">
+	<input class="button center button-size" type="submit" value="Sign in" onclick="check()">
+
+
+
+
+
+</form>    
+
+</div>   
+
+</body>    
+
+</html>
+
+<script>
+    
+    function register(){
+        window.location.href = "Register.html";
+    }
+    function check(){
+    	var name = document.getElementById("username");
+    	var pass = document.getElementById("password");
+
+    	if(name.value == "" || pass.value == ""){
+    		alert("username or password is empty");
+    	}
+    }
+
+</script>

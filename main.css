@@ -1,0 +1,281 @@
+
+
+body {
+background-image: url(images/background.PNG);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#loginContainer {
+    background-color: #A9D6E5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    margin-top: 7%; 
+    height: auto;
+    box-shadow: 0px 0px 30px #2A6F97;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 300px) {
+    #loginContainer {width: 65%;
+                    
+    }
+  }
+                     
+@media only screen and (min-width: 300px) {
+    #loginContainer {width: 45%;}
+  }
+  
+
+  @media only screen and (min-width: 500px) {
+    #loginContainer {width: 30%;}
+  }
+  
+img {
+    width: 20%;  
+    height: 20%;
+    margin-bottom: 50px;
+}  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.centerIn{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;   
+}
+
+.centerText {
+    display: block;
+    text-align: center;
+
+}
+
+.centertextIN{
+    text-align: center;
+    display: inline-block;
+}
+
+.marginBM {
+margin-bottom: 20px;
+}
+
+.marginTP {
+    margin-top: 30px;
+    }
+
+.font40 {
+
+    font-size: 30px;
+
+}
+
+.sizeInput {
+    height: 30px;
+    width: 50%;
+    font-size: 20px;
+    border: 0px;
+}
+
+.button {
+    display: block;
+    font-size: 20px;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+.button:hover{
+   background-color: #6ca2b5; 
+   border: none;
+   border-bottom: 5px solid #000;
+   box-shadow:inset -0.15em -0.3em 0 0 rgba(0,0,0,0.17);
+}
+
+.button-size{
+    width: 49%;
+    height: 50px;
+    display: inline-block;
+}
+
+.size-register{
+    height: 5%;
+    width: 30%;
+}
+
+
+
+
+
+/* Instructor */ 
+
+.insDiv {
+    background-color: #ebf6f9;
+    width: 46%;
+    height: 100%;
+    float:left;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+
+    
+
+    text-align: center;
+}
+
+.insDiv:hover {
+   background-color: #f1f1f1; 
+   border: none;
+   border-bottom: 5px solid #000;
+    top:0.1em;
+    box-shadow:inset -0.35em -0.7em 0 0 rgba(0,0,0,0.17);
+}
+
+
+#parent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    margin-top: 12%; 
+    height: 25%;
+    width: 50%;
+}
+
+.heading {
+ font-size: 48px;
+ margin-top: 5%;
+}
+
+.centerInDiv {
+   width:auto;
+   position: relative;
+   top: 50%;
+   margin: auto 0 0 0;
+   font-size:3vw;
+}
+
+/* Create a quiz*/
+
+
+#divQuiz {
+    width: 80%;
+    height: auto;
+    background-color: #A9D6E5;
+    box-shadow: 0px 0px 30px #2A6F97;
+    margin: auto;
+    padding: 10px;
+}
+
+#divQuistion {
+    width: 100%;
+    margin-top: 20px;
+    display:none; 
+}
+
+#quistion {
+    width: 80%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font2_2 {
+    font-size: 2.2vw;
+}
+
+.font1_2 {
+    font-size: 1.2vw;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .typeQuistion {width: 3%;
+        height: 3%;
+        position: relative;
+        top: 7px;
+    }
+  }
+
+@media only screen and (min-width: 500px) {
+    .typeQuistion {width: 4%; 
+        height: 4%;
+        position: relative;
+        top: 3px; 
+
+    }
+  }
+
+
+  @media only screen and (min-width: 800px) {
+    .typeQuistion {width: 3%;
+        height: 3%;
+        position: relative;
+        top: 3px; 
+    }
+  }
+
+.marginRT {
+    margin-right: 10px;
+} 
+
+#answer {
+    width: 100%;
+    height: auto;
+}
+
+.radioSize {
+    width: 3%;
+    height: 3%;
+    position: relative;
+    top: 3px; 
+} 
+
+
+/* Student */
+
+.spacing{
+    letter-spacing: 5px;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.enter-student{
+    display: block;
+    height: 10%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    background-color: white;
+    font-size: 40px;
+
+}
+
+.enter-student:hover{
+    background-color: #6ca2b5; 
+   border: none;
+   border-bottom: 5px solid #000;
+   box-shadow:inset -0.15em -0.3em 0 0 rgba(0,0,0,0.17);
+}
+
+
+.background-student{
+    background-color: #A9D6E5;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 7%;
+    margin-top: 7%; 
+    height: auto;
+    width: 70%;
+    box-shadow: 0px 0px 20px #2A6F97;
+    padding: 15px;
+}
+
+
